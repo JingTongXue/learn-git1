@@ -1,0 +1,17 @@
+﻿用CSS做三角形
+包含块(重要)
+Normal Flow 正常流   正常流一般情况下是不可以重叠的
+块元素水平布局
+  没有auto
+    过分受限，重置margin-right为auto
+  一个auto
+    算出它
+  两个auto
+    两个margin为auto，计算为相同的值
+    其中有一个auto给到了width，margin的auto为0
+  三个auto
+    两个margin都重置为0
+  margin-left为auto时无法计算出负值（对于从左往右的语言）
+
+
+替换元素

@@ -1,0 +1,15 @@
+1. div * :first-of-type（X）{}    
+     CSS :first-of-type选择器::该div中所有类型的第一个  （*指所有类型,X指第X个）     
+2. a:hover{
+			background-color:yellow;
+		}
+    CSS：hover选择器::选择鼠标指针浮动在其上的元素
+3. a:nth-child(n){
+			background:#ff0000;
+         }
+    CSS: nth-child()选择器::规定属于其夫元素的第N个子元素的每个p的背景色
+4. p:last-child{
+			background:#ff0000;
+		}
+	CSS:last-child选择器::指定属于其父元素的最后一个子元素的P元素的背景色
+5.

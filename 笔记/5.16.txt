@@ -1,0 +1,28 @@
+1. ul 里面切记不可直接再放一个ul
+
+2. transition 属性： 延时？？  渐变？？
+       +        参考：https://www.zhangxinxu.com/wordpress/2013/05/transition-visibility-show-hide/?tdsourcetag=s_pcqq_aiomsg
+3. visibility 属性：visibility/hidden/collapse
+   visibility: 离散步骤，在0到1数字范围之内，
+	0表示“隐藏”，1表示完全“显示”
+	
+	opacity属性:指定了一个元素的透明度。换言之，
+	opacity属性指定了一个元素后面的背景的被覆盖程度。
+    当opacity属性的值应用于某个元素上时，是把这个元素（包括它的内容）
+	当成一个整体看待，即使这个值没有被子元素继承。因此，一个元素和它
+	包含的子元素都会具有和元素背景相同的透明度，哪怕这个元素和它的子
+	元素有不同的opacity属性值。
+	取值：0/0到1之间/1
+	
+	
+4. pointer-events属性:  控制鼠标与其作用元素的交互
+
+5.cursor:pointer  控制鼠标在哪个位置上时鼠标为手型的
+
+6. div::before{
+	content:"";
+  }  尾元素:所属元素的直接子元素，一定要设置content元素，
+     否则该尾元素不会显示。
+	 
+7.transform属性允许你旋转，缩放，倾斜或平移给定元素。
+   这是通过修改CSS视觉格式化模型的坐标空间来实现的。
